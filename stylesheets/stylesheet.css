@@ -2,18 +2,32 @@
   box-sizing: border-box; }
 
 body {
-  padding: 0;
+  padding: 0px;
   margin: 0;
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
   color: #606c71; }
 
+/*css reset, */
 a {
-  color: #1e6bb8;
-  text-decoration: none; }
+  color: black;
+  text-decoration: none;
+  font-family: "Lobster", cursive;
+  font-size: 1.2em;
+  text-align: center;
+  margin-left: 15px;
+  margin-top: 10px;
+  padding-left: 75px;
+ }
   a:hover {
     text-decoration: underline; }
+
+html:active {
+         background: #AAEDE8;
+    }
+
+
 
 .btn {
   display: inline-block;
