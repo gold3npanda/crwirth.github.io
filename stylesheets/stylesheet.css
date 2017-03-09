@@ -1,42 +1,46 @@
-background: #ee0979; /* fallback for old browsers */
-background: -webkit-linear-gradient(to left, #ee0979 , #ff6a00); /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to left, #ee0979 , #ff6a00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-
-html {
-        background-color: #ee0979;
+body {
+	width: 100wh;
+	height: 90vh;
+	color: #fff;
+	background: linear-gradient(270deg, #ff20e3, #9300f7, #0072f7);
+	background-size: 400% 400%;
+	-webkit-animation: Gradient 30s ease infinite;
+	-moz-animation: Gradient 30s ease infinite;
+	animation: Gradient 30s ease infinite;
 }
 
-a {
-        color: black;
-        text-decoration: none;
-        font-family: "Lobster", cursive;
-        text-align: left;
+@-webkit-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
 }
 
-h1 {
-  color: black;
-  font-family: "Lobster", cursive;
-  font-size: 1.9em;
-  text-align: left;
-  margin-left: 15px;
-  margin-top: 20px;
-  padding-left: 60px;
-  padding-top:  10px;
-  padding-bottom: 25px;
- }
-
- a:hover {
-    text-decoration: underline;
+@-moz-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
 }
 
-
- a {
-         color: black;
-         font-family: "Lobster", cursive;
-         font-size: 3.1em;
-         text-align: left;
-         padding-left: 40px;
-         padding-top: 15px;
-         padding-bottom: 15px;
- }
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
