@@ -2,7 +2,9 @@
   display: block;
   position: relative;
   overflow: hidden;
-  max-width: 530px;
+  width: 530px;
+  height: 530px;
+  flex: content;
   margin: auto auto 1rem;
   .caption {
     display: flex;
