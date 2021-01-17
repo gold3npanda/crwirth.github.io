@@ -143,5 +143,17 @@ h2 {
   .intro {
     padding-top: 100px !important;
     padding-top: 200px !important;
+
+  }
+  #particles {
+    position: fixed;
+    text-align: center;
+    padding-top: 25px !important;
+  }
+
+  .firstContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 }
