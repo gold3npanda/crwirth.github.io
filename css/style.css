@@ -186,3 +186,28 @@ h2 {
 #intro {
   /* display: flex; */
 }
+
+body div div#intro.servicesList2 p:nth-child(1){
+  padding-top: 75px;
+}
+body div div#intro.servicesList2 p{
+  margin-bottom: 10px;
+  color: black !important;
+  font-size: 14px;
+}
+
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: #ff006e;
+}
+
+.firstContainer {
+  z-index:9999999;
+}
+
+.intro {
+  z-index:9999999;
+}

@@ -1,0 +1,6 @@
+a.btn:nth-last-child() {
+  background-color: #3aaa35 !important;
+  color: #fff !important;
+  font-weight: 600 !important;
+  border-color: #006400 !important;
+}
